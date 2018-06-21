@@ -60,7 +60,7 @@ app.use(cors());
 //   res.render('error');
 // });
 
-console.log("hayyyyyyyyy");
+console.log("start");
 
 app.get('/', function(req, res) {
   var data;
@@ -74,7 +74,7 @@ app.get('/', function(req, res) {
   });
 });
 
-console.log("yooooooo");
+console.log("middle");
 
 app.get('/logout', function(req, res) {
   delete req.session.token;
